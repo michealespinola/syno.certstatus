@@ -46,8 +46,8 @@ if [ -n "$cert_files" ]; then
 
         # OUTPUT SUMMARY
         printf "%${max_length}s: %s\n" "Certificate" "$cert_file"
-        printf "%${max_length}s: %s\n" "Issuer"      "$issuer_o ($issuer_cn)"
         printf "%${max_length}s: %s\n" "Subject"     "$subject_cn"
+        printf "%${max_length}s: %s\n" "Issuer"      "$issuer_o ($issuer_cn)"
         printf "%${max_length}s: %s\n" "Expiry"      "$enddate ($days_remaining days)"
         printf '%.0s-' {1..40}
         printf '\n'
