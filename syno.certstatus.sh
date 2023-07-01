@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#!/bin/bash
 # shellcheck disable=SC2154,SC2181
 # shellcheck source=/dev/null
 #
@@ -17,7 +18,7 @@ max_length=0
 expiring_certificates=()
 
 # LOCATE X.509 CERT.PEM FILES WITHIN THE DIRECTORY HIERARCHY
-cert_files=$(find "$cert_folder" -name cert.pem)
+cert_files=$(find "$cert_folder" -name cert.pem | sort)
 
 # FIND THE MAXIMUM LENGTH OF THE SUMMARY LABELS
 labels=("Certificate" "Issuer" "Subject" "Expiry")
