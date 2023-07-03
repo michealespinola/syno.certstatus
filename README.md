@@ -1,5 +1,14 @@
 # syno.certstatus
-A script to check the expiration status of certificates on Synology NAS
+A script to check the expiration status of certificates on Synology NAS.
+
+## Example Syntax:
+
+    syno.certstatus.sh <days?> <directory?>
+
+1. First argument is to specify number of days to compare against (default is 30).
+2. Second arguement is to specify a directory to search for certificates. (default is Synology default).
+
+📝: You must specify a <days?> arguement if you intend to also specify a <directory?> arguement.
 
 ## Example Output (no warnings)
 
