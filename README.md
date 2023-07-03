@@ -11,22 +11,22 @@ A script to check the expiration status of certificates on Synology NAS
     ----------------------------------------
     Certificate: [1] /usr/syno/etc/certificate/_archive/[REDACTED]/cert.pem
         Subject: SYNOLOGY
-        Issuer: [REDACTED] ([REDACTED])
+        Issuer: [REDACTED]
         Expiry: May 13 04:30:37 2024 GMT (316 days)
     ----------------------------------------
     Certificate: [2] /usr/syno/etc/certificate/_archive/[REDACTED]/cert.pem
         Subject: synology.com
-        Issuer: Synology Inc. (Synology Inc. CA)
+        Issuer: Synology Inc.
         Expiry: Aug 15 00:39:13 2038 GMT (5523 days)
     ----------------------------------------
     Certificate: [3] /usr/syno/etc/certificate/_archive/[REDACTED]/cert.pem
         Subject: [REDACTED].direct.quickconnect.to
-        Issuer: Let's Encrypt (R3)
+        Issuer: Let's Encrypt
         Expiry: Aug 19 05:17:45 2023 GMT (48 days)
     ----------------------------------------
     Certificate: [4] /usr/syno/etc/certificate/_archive/[REDACTED]/cert.pem
         Subject: [REDACTED].diskstation.me
-        Issuer: Let's Encrypt (R3)
+        Issuer: Let's Encrypt
         Expiry: Sep 15 01:48:11 2023 GMT (75 days)
     ----------------------------------------
 
