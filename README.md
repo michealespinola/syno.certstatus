@@ -7,7 +7,7 @@ A script to check the expiration status of certificates on Synology NAS
 
     # bash syno.certstatus.sh
 
-    Certificate Statuses:
+    Certificate Details:
     ----------------------------------------
     Certificate: [1] /usr/syno/etc/certificate/_archive/[REDACTED]/cert.pem
         Subject: SYNOLOGY
@@ -36,7 +36,7 @@ A script to check the expiration status of certificates on Synology NAS
 
 ### No expiries for <100 days (status area warnings)
 
-    WARNING: Some certificates have less than 100 days remaining until expiry.
+    WARNING: Some certificates have less than 100 days until expiry.
 
     Expiring Certificates:
     * [3] /usr/syno/etc/certificate/_archive/[REDACTED]/cert.pem
@@ -46,7 +46,7 @@ A script to check the expiration status of certificates on Synology NAS
 
 ### No expiries for <1000 days (status area warnings)
 
-    WARNING: Some certificates have less than 1000 days remaining until expiry.
+    WARNING: Some certificates have less than 1000 days until expiry.
 
     Expiring Certificates:
     * [1] /usr/syno/etc/certificate/_archive/[REDACTED]/cert.pem
@@ -57,7 +57,7 @@ A script to check the expiration status of certificates on Synology NAS
 
 ### No expiries for <10000 days (status area warnings)
 
-    WARNING: Some certificates have less than 10000 days remaining until expiry.
+    WARNING: Some certificates have less than 10000 days until expiry.
 
     Expiring Certificates:
     * [1] /usr/syno/etc/certificate/_archive/[REDACTED]/cert.pem
